@@ -1,0 +1,17 @@
+{
+  "players":
+  [
+    {
+      "Name": "Drake",
+      "PowerLevel": 10
+    },
+    {
+      "Name": "Snoop Dogg",
+      "PowerLevel": 15
+    },
+    {
+      "Name": "Hopsin",
+      "PowerLevel": 15
+    }
+  ]
+}

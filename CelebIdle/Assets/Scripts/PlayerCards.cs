@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class TeamScoringSystem : MonoBehaviour
+using UnityEngine.UI;
+public class PlayerCards : MonoBehaviour
 {
-    public Teams team;
-    public int TotalScore { get; set; }
+    public Image Image { get; set; }
     // Start is called before the first frame update
     void Start()
     {
-        CalculateScore();
+        
     }
 
     // Update is called once per frame
@@ -17,10 +16,4 @@ public class TeamScoringSystem : MonoBehaviour
     {
         
     }
-
-    void CalculateScore()
-    {
-       
-    }
-
 }
